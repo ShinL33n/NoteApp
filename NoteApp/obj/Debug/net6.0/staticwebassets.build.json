@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "aX0VT0TCyzXRrtnikIuh/i0t19TbXgAtHfQxBHv+gis=",
+  "Source": "NoteApp",
+  "BasePath": "_content/NoteApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "NoteApp\\wwwroot",
+      "Source": "NoteApp",
+      "ContentRoot": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\wwwroot\\",
+      "BasePath": "_content/NoteApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\wwwroot\\css\\main.css",
+      "SourceId": "NoteApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\wwwroot\\",
+      "BasePath": "_content/NoteApp",
+      "RelativePath": "css/main.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\main.css"
+    },
+    {
+      "Identity": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\wwwroot\\css\\style.css",
+      "SourceId": "NoteApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\wwwroot\\",
+      "BasePath": "_content/NoteApp",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ]
+}

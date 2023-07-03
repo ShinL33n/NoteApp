@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <link href="~/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">
+    @if (IsSectionDefined("Links")){
+        @RenderSection("Links", required: false)}
+</head>
+<body>
+    <div class="wrapper">
+        <aside>
+            <div class="logo">
+                <span class="material-symbols-outlined" title="Home page"> note </span>
+            </div>
+
+            <nav>
+                <p> notes </p>
+                <p> events </p>
+                <p> upcoming </p>
+            </nav>
+
+            <section class="secondary-text">
+                <hr />
+
+                @if (IsSectionDefined("SectionNav")) {
+                    @RenderSection("SectionNav", required: false)
+                }
+
+                <div class="about">
+                    about
+                </div>
+            </section>
+
+        </aside>
+
+        <main>
+            @RenderBody()
+        </main>
+    </div>
+
+    @if (IsSectionDefined("Scripts"))
+    {
+        @RenderSection("Scripts", required: false)
+    }
+</body>
+</html>
