@@ -48,5 +48,85 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\style.css))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Notes\local\2392786e-f385-4d0d-b1f2-0e2859065580_MyNewNote_07.07.2023))">
+      <SourceType>Package</SourceType>
+      <SourceId>NoteApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/NoteApp</BasePath>
+      <RelativePath>Notes/local/2392786e-f385-4d0d-b1f2-0e2859065580_MyNewNote_07.07.2023</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Notes\local\2392786e-f385-4d0d-b1f2-0e2859065580_MyNewNote_07.07.2023))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Notes\local\277f5326-101d-4123-9aa9-2d305a98d945_Xd_07.07.2023))">
+      <SourceType>Package</SourceType>
+      <SourceId>NoteApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/NoteApp</BasePath>
+      <RelativePath>Notes/local/277f5326-101d-4123-9aa9-2d305a98d945_Xd_07.07.2023</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Notes\local\277f5326-101d-4123-9aa9-2d305a98d945_Xd_07.07.2023))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Notes\local\4e9da77c-66c7-4fc4-ab82-d59798fb6c27_do something_07.07.2023))">
+      <SourceType>Package</SourceType>
+      <SourceId>NoteApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/NoteApp</BasePath>
+      <RelativePath>Notes/local/4e9da77c-66c7-4fc4-ab82-d59798fb6c27_do something_07.07.2023</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Notes\local\4e9da77c-66c7-4fc4-ab82-d59798fb6c27_do something_07.07.2023))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Notes\local\fa345766-4ac3-40ea-ba7e-0fc474f03e51_dododod_07.07.2023))">
+      <SourceType>Package</SourceType>
+      <SourceId>NoteApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/NoteApp</BasePath>
+      <RelativePath>Notes/local/fa345766-4ac3-40ea-ba7e-0fc474f03e51_dododod_07.07.2023</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Notes\local\fa345766-4ac3-40ea-ba7e-0fc474f03e51_dododod_07.07.2023))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Notes\local\fab87a92-2644-4052-8f25-96607fb91053_MyNewNote_07.07.2023))">
+      <SourceType>Package</SourceType>
+      <SourceId>NoteApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/NoteApp</BasePath>
+      <RelativePath>Notes/local/fab87a92-2644-4052-8f25-96607fb91053_MyNewNote_07.07.2023</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Notes\local\fab87a92-2644-4052-8f25-96607fb91053_MyNewNote_07.07.2023))</OriginalItemSpec>
+    </StaticWebAsset>
   </ItemGroup>
 </Project>

@@ -5,14 +5,14 @@ namespace NoteApp.ViewModels
 {
     public class AddNoteViewModel
     {
-        [DefaultValue("My new note")]
         public string? Title { get; set; }
 
         [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "{yyyy-MM-dd}", ApplyFormatInEditMode = true)]
-        [DisplayName("Created on")]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime DateCreated { get; set; }
 
-        public string? Description { get; set; }
+        [Required]
+        public string Description { get; set; }
+
     }
 }
