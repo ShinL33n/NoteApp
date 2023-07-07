@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Pliki\Dokumenty\Programming Projects\C#\NoteApp\NoteApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Pliki/Dokumenty/Programming Projects/C\#/NoteApp/NoteApp/Views/Home/AddNote.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGROb3RlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Pliki/Dokumenty/Programming Projects/C\#/NoteApp/NoteApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

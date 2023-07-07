@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\wwwroot\\css\\addnote.css",
+      "PackagePath": "staticwebassets\\css\\addnote.css"
+    },
+    {
       "Id": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\wwwroot\\css\\main.css",
       "PackagePath": "staticwebassets\\css\\main.css"
     },

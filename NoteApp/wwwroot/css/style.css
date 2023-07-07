@@ -1,6 +1,14 @@
 ﻿* {
     margin: 0;
     padding: 0;
+    /*transition: 0.2s;*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -116,4 +124,9 @@ main {
     align-content: center;
     align-items: center;
     padding: 1%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }

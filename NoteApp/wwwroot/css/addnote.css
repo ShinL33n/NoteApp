@@ -1,0 +1,70 @@
+﻿.box {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    width: inherit;
+    height: inherit;
+}
+
+.box form{
+    width: inherit;
+    height: inherit;
+}
+
+.box label{
+    display: block;
+    color: #2f2f2faa;
+}
+
+.box input{
+    padding: 1.2em 0.5em;
+    width: 50%;
+    border: none;
+    background-color: inherit;
+    box-shadow: 5px 5px 15px 0px #2f2f2f11;
+    border-radius: 0.2em;
+}
+
+.box input::placeholder, .box textarea::placeholder{
+    color: #2f2f2f44;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus{
+    outline: none;
+    border-bottom: 1px #2f2f2fdd solid;
+}
+
+.input-wrapper{
+    margin: 3em 0;
+    width: inherit;
+}
+
+textarea {
+    padding: 1.2em 0.5em;
+    min-width: 50%;
+    max-width: 50%;
+    resize: none;
+    border: none;
+    background-color: inherit;
+    box-shadow: 5px 5px 15px 0px #2f2f2f11;
+    border-radius: 0.2em;
+    font-family: inherit;
+}
+
+.submit-button {
+    width: 50%;
+    border-radius: 0.2em;
+    background-color: #e9e8e6;
+    padding: 1.2em;
+    color: #2f2f2faa;
+    border: none;
+    box-shadow: 5px 5px 15px 0px #2f2f2f11;
+}
+
+.submit-button:hover{
+    cursor: pointer;
+    background-color: inherit;
+}

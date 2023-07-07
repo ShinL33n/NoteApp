@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aX0VT0TCyzXRrtnikIuh/i0t19TbXgAtHfQxBHv+gis=",
+  "Hash": "VQ0nFgH6vy2HXEbGPyWLKj52v1gO2/bGgyZ6zC1iIXE=",
   "Source": "NoteApp",
   "BasePath": "_content/NoteApp",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\wwwroot\\css\\addnote.css",
+      "SourceId": "NoteApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\wwwroot\\",
+      "BasePath": "_content/NoteApp",
+      "RelativePath": "css/addnote.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\addnote.css"
+    },
     {
       "Identity": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\wwwroot\\css\\main.css",
       "SourceId": "NoteApp",

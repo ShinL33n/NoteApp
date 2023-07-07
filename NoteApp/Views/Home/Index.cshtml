@@ -7,7 +7,7 @@
 }
 
 @section SectionNav{
-            <p> add note </p>
+            <p> <a asp-action="AddNote" asp-controller="home"> add note </a> </p>
             <p> add event </p>
             <p> upcoming events </p>
 }
@@ -17,20 +17,21 @@
     <h5 class="low-priority-text">What would you like to do?</h5>
 
     <div class="options">
-        <div>
-            ➕ add note
-        </div>
+        
+        <a asp-controller="home" asp-action="AddNote">
+            <div> ➕ add note </div>
+        </a>
 
-        <div>
-            ➕ add event
-        </div>
+        <a asp-controller="home" asp-action="AddNote">
+            <div> ➕ add event </div>
+        </a>
 
-        <div>
-            🔍 check my notes
-        </div>
+        <a asp-controller="home" asp-action="AddNote">
+            <div> 🔍 check my notes </div>
+        </a>
 
-         <div>
-            🔍 check my events
-        </div>
+        <a asp-controller="home" asp-action="AddNote">
+            <div> 🔍 check my events </div>
+        </a>
     </div>
 </div>

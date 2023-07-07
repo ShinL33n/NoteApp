@@ -1,0 +1,37 @@
+﻿@model AddNoteViewModel
+
+@section Links{
+            <link href="~/css/addnote.css" rel="stylesheet" />
+}
+
+@section SectionNav{
+                <p> add note </p>
+                <p> edit note </p>
+                <p> see notes </p>
+                <p> manage notes </p>
+}
+
+<div class="box">
+    <form method="post" asp-controller="home" asp-action="AddNote">
+        <div class="input-wrapper" style="margin-top: 1em; color: #2f2f2f44">
+            <label asp-for="DateCreated"></label>
+            <span>@DateTime.Now</span>
+        </div>
+
+        <div class="input-wrapper">
+            <label asp-for="Title"></label>
+            <input asp-for="Title" placeholder="Note's title"/>
+        </div>
+
+        <div class="input-wrapper">
+            <label asp-for="Description"></label>
+            <textarea type="textarea" asp-for="Description" placeholder="Your note" rows="25" ></textarea>
+        </div>
+
+        <div class="input-wrapper">
+            <button type="submit" class="submit-button">Create Note</button>
+        </div>
+
+        <div asp-validation-summary="All"></div>
+    </form>
+</div>
