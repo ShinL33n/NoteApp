@@ -1,0 +1,52 @@
+﻿@using System.IO
+@using NoteApp.Controllers;
+@model IEnumerable<Note>
+
+@{
+    ViewBag.Title = "View your notes";
+}
+
+@section Links{
+        <link href="~/css/viewnotes.css" rel="stylesheet" />
+}
+
+@section SectionNav{
+            <p> <a asp-action="AddNote" asp-controller="home"> add note </a> </p>
+            <p> add event </p>
+            <p> upcoming events </p>
+}
+
+<div class="box">
+    @foreach(Note note in Model)
+    {
+        var notePath = "wwwroot/Notes/local/" + note.DescriptionFileName;
+
+        <div class="note-card">
+
+            <div class="note-title">
+                @note.Title
+            </div>
+
+            <div class="not-description-short">
+                <textarea type="textarea" maxlength="200" readonly="readonly">
+                    @{
+                        // maybe try to wrap it up into method
+                        char[] noteBuffer = new char[200];
+                        using (StreamReader reader = new StreamReader(File.OpenRead(notePath))){
+                            reader.ReadBlock(noteBuffer, 0, 200);
+                        }
+                        string noteDescPreview = new string(noteBuffer);
+                        noteDescPreview = noteDescPreview.Replace("\0", string.Empty);
+                        noteDescPreview = noteDescPreview.Replace("\r\n", ", ");
+                        @noteDescPreview;
+                    }...
+                </textarea>
+            </div>
+
+            <div class="note-date">
+                Creation date: @note.DateCreated
+            </div>
+
+        </div>
+    }
+</div>

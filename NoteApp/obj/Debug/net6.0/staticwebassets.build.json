@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MYoWDt1rc45iKlJ80YgbiFe1mKKvy5R8dVH1KYQGPVk=",
+  "Hash": "vjV32RZGaQY2JKgKfli+ExUV9jMRepYATBsIEvjZhLc=",
   "Source": "NoteApp",
   "BasePath": "_content/NoteApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "NoteApp\\wwwroot",
       "Source": "NoteApp",
-      "ContentRoot": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\wwwroot\\",
+      "ContentRoot": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\",
       "BasePath": "_content/NoteApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\wwwroot\\css\\addnote.css",
+      "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\css\\addnote.css",
       "SourceId": "NoteApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\wwwroot\\",
+      "ContentRoot": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\",
       "BasePath": "_content/NoteApp",
       "RelativePath": "css/addnote.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\css\\addnote.css"
     },
     {
-      "Identity": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\wwwroot\\css\\main.css",
+      "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\css\\main.css",
       "SourceId": "NoteApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\wwwroot\\",
+      "ContentRoot": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\",
       "BasePath": "_content/NoteApp",
       "RelativePath": "css/main.css",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\css\\main.css"
     },
     {
-      "Identity": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\wwwroot\\css\\style.css",
+      "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\css\\style.css",
       "SourceId": "NoteApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\wwwroot\\",
+      "ContentRoot": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\",
       "BasePath": "_content/NoteApp",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -68,12 +68,12 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\2392786e-f385-4d0d-b1f2-0e2859065580_MyNewNote_07.07.2023",
+      "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\css\\viewnotes.css",
       "SourceId": "NoteApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\wwwroot\\",
+      "ContentRoot": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\",
       "BasePath": "_content/NoteApp",
-      "RelativePath": "Notes/local/2392786e-f385-4d0d-b1f2-0e2859065580_MyNewNote_07.07.2023",
+      "RelativePath": "css/viewnotes.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -82,15 +82,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Notes\\local\\2392786e-f385-4d0d-b1f2-0e2859065580_MyNewNote_07.07.2023"
+      "OriginalItemSpec": "wwwroot\\css\\viewnotes.css"
     },
     {
-      "Identity": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\277f5326-101d-4123-9aa9-2d305a98d945_Xd_07.07.2023",
+      "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\4d2b0dc3-006b-40ae-8ba6-175ef1980700_eg.notenum1_10.07.2023",
       "SourceId": "NoteApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\wwwroot\\",
+      "ContentRoot": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\",
       "BasePath": "_content/NoteApp",
-      "RelativePath": "Notes/local/277f5326-101d-4123-9aa9-2d305a98d945_Xd_07.07.2023",
+      "RelativePath": "Notes/local/4d2b0dc3-006b-40ae-8ba6-175ef1980700_eg.notenum1_10.07.2023",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,15 +99,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Notes\\local\\277f5326-101d-4123-9aa9-2d305a98d945_Xd_07.07.2023"
+      "OriginalItemSpec": "wwwroot\\Notes\\local\\4d2b0dc3-006b-40ae-8ba6-175ef1980700_eg.notenum1_10.07.2023"
     },
     {
-      "Identity": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\4e9da77c-66c7-4fc4-ab82-d59798fb6c27_do something_07.07.2023",
+      "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\4d2b0dc3-006b-40ae-8tg6-175ef1980700_eg.notenum2_10.07.2023",
       "SourceId": "NoteApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\wwwroot\\",
+      "ContentRoot": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\",
       "BasePath": "_content/NoteApp",
-      "RelativePath": "Notes/local/4e9da77c-66c7-4fc4-ab82-d59798fb6c27_do something_07.07.2023",
+      "RelativePath": "Notes/local/4d2b0dc3-006b-40ae-8tg6-175ef1980700_eg.notenum2_10.07.2023",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,15 +116,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Notes\\local\\4e9da77c-66c7-4fc4-ab82-d59798fb6c27_do something_07.07.2023"
+      "OriginalItemSpec": "wwwroot\\Notes\\local\\4d2b0dc3-006b-40ae-8tg6-175ef1980700_eg.notenum2_10.07.2023"
     },
     {
-      "Identity": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\fa345766-4ac3-40ea-ba7e-0fc474f03e51_dododod_07.07.2023",
+      "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\4d2b0dc3-006b-40ae-8tg6-189ef1980700_eg.notenum3_10.07.2023",
       "SourceId": "NoteApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\wwwroot\\",
+      "ContentRoot": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\",
       "BasePath": "_content/NoteApp",
-      "RelativePath": "Notes/local/fa345766-4ac3-40ea-ba7e-0fc474f03e51_dododod_07.07.2023",
+      "RelativePath": "Notes/local/4d2b0dc3-006b-40ae-8tg6-189ef1980700_eg.notenum3_10.07.2023",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -133,24 +133,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Notes\\local\\fa345766-4ac3-40ea-ba7e-0fc474f03e51_dododod_07.07.2023"
-    },
-    {
-      "Identity": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\fab87a92-2644-4052-8f25-96607fb91053_MyNewNote_07.07.2023",
-      "SourceId": "NoteApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\wwwroot\\",
-      "BasePath": "_content/NoteApp",
-      "RelativePath": "Notes/local/fab87a92-2644-4052-8f25-96607fb91053_MyNewNote_07.07.2023",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Notes\\local\\fab87a92-2644-4052-8f25-96607fb91053_MyNewNote_07.07.2023"
+      "OriginalItemSpec": "wwwroot\\Notes\\local\\4d2b0dc3-006b-40ae-8tg6-189ef1980700_eg.notenum3_10.07.2023"
     }
   ]
 }

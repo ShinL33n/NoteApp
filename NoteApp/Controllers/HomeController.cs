@@ -10,9 +10,11 @@ namespace NoteApp.Controllers
     public class HomeController : Controller
     {
         private readonly IWebHostEnvironment _hostingEnvironment;
-        public HomeController(IWebHostEnvironment hostingEnvironment) 
+        private readonly INotesRepository _notesRepository;
+        public HomeController(IWebHostEnvironment hostingEnvironment, INotesRepository notesRepository)
         {
             _hostingEnvironment = hostingEnvironment;
+            _notesRepository = notesRepository;
         }
 
         public ViewResult Index()
@@ -44,7 +46,7 @@ namespace NoteApp.Controllers
                     DescriptionFileName = uniqueFileName
                 };
 
-                //_notesRepository.Add(note); // add with entity framework
+                _notesRepository.Add(note);
 
                 return RedirectToAction("Index", "Home"); // change to notes list view itf
             }
@@ -75,5 +77,27 @@ namespace NoteApp.Controllers
 
             return uniqueFileName;
         }
+
+        [HttpGet]
+        public ViewResult ViewNotes()
+        {
+            IEnumerable<Note> model = _notesRepository.GetAll();
+
+            return View(model);
+        }
+
+        //public string NoteDescriptionPreview(string notePath)
+        //{
+        //    char[] noteBuffer = new char[200];
+        //    using (StreamReader reader = new StreamReader(System.IO.File.OpenRead(notePath)))
+        //    {
+        //        reader.ReadBlock(noteBuffer, 0, 200);
+        //    }
+        //    string noteDescPreview = new string(noteBuffer);
+        //    noteDescPreview = noteDescPreview.Replace("\0", string.Empty);
+        //    noteDescPreview = noteDescPreview.Replace("\r\n", ", ");
+
+        //    return noteDescPreview;
+        //}
     }
 }

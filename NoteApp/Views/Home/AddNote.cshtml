@@ -1,5 +1,9 @@
 ﻿@model AddNoteViewModel
 
+@{
+    ViewBag.Title = "Add a new note";
+}
+
 @section Links{
             <link href="~/css/addnote.css" rel="stylesheet" />
 }
@@ -25,7 +29,7 @@
 
         <div class="input-wrapper">
             <label asp-for="Description"></label>
-            <textarea type="textarea" asp-for="Description" placeholder="Your note" rows="25" />
+            <textarea type="textarea" asp-for="Description" placeholder="Your note" rows="25"> </textarea>
         </div>
 
         <div class="input-wrapper">

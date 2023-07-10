@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\NoteApp.csproj": {}
+    "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\NoteApp.csproj": {}
   },
   "projects": {
-    "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\NoteApp.csproj": {
+    "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\NoteApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\NoteApp.csproj",
+        "projectUniqueName": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\NoteApp.csproj",
         "projectName": "NoteApp",
-        "projectPath": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\NoteApp.csproj",
-        "packagesPath": "C:\\Users\\releme\\.nuget\\packages\\",
-        "outputPath": "C:\\Pliki\\Dokumenty\\Programming Projects\\C#\\NoteApp\\NoteApp\\obj\\",
+        "projectPath": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\NoteApp.csproj",
+        "packagesPath": "C:\\Users\\hsg39\\.nuget\\packages\\",
+        "outputPath": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\releme\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hsg39\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,7 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "net6.0": {
@@ -50,8 +49,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -63,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

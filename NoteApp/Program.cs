@@ -1,3 +1,5 @@
+using NoteApp.Models;
+
 namespace NoteApp
 {
     public class Program
@@ -8,6 +10,7 @@ namespace NoteApp
 
             //Configure Services
             builder.Services.AddMvc(option => option.EnableEndpointRouting = false);
+            builder.Services.AddSingleton<INotesRepository, TempNotesRepository>();
 
             var app = builder.Build();
 

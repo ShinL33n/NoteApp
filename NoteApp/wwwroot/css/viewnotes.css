@@ -1,0 +1,9 @@
+﻿.box {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    width: inherit;
+    height: inherit;
+}
+
+
