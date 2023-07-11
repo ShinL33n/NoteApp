@@ -29,13 +29,15 @@ h5 {
     transition: 0.2s;
     width: auto;
     border: #00000011 2px solid;
-    padding: 1%;
+    padding: 1vmax;
+    box-shadow: 5px 5px 15px 0px #2f2f2f11;
 }
 
 .options a:hover{
     transition: 0.2s;
-    border: #fff 2px solid;
+    border: #FAF9F6 2px solid;
     background-color: #00000011;
-    border-radius: 1em;
+    border-radius: 1.5vh;
     cursor: pointer;
+    box-shadow: none;
 }

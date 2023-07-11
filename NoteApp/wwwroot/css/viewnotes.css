@@ -1,9 +1,77 @@
 ﻿.box {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     display: flex;
     justify-content: flex-start;
+    align-content: flex-start;
+    row-gap: 5%;
     width: inherit;
     height: inherit;
+    flex-wrap: wrap;
+}
+
+.note-card {
+    transition: 0.2s;
+    display: flex;
+    flex-flow: column wrap;
+    min-width: 22vw;
+    max-width: 22vw;
+    margin: 0 2%;
+    gap: .5em;
+    border: #e9e8e6 2px solid;
+    height: fit-content;
+    box-shadow: 5px 5px 15px 0px #2f2f2f11;
+}
+
+.note-card *{
+    width: 100%;
+    overflow: hidden;
 }
 
 
+.note-title {
+    transition: 0.2s;
+    font-weight: 700;
+    text-transform: capitalize;
+    border-bottom: #00000011 2px solid;
+    padding: 1vh;
+    transition: 0.2s;
+}
+
+.note-description-short {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    padding: 1vh;
+    min-height: 5rem;
+    height: calc(80vh - 50vw);
+}
+
+.note-date {
+    transition: 0.2s;
+    font-family: 'Lato Hairline', sans-serif;
+    font-weight: 900;
+    border-top: #00000011 2px solid;
+    padding: 1vh;
+}
+
+.note-card:hover {
+    transition: 0.2s;
+    border: #FAF9F6 2px solid;
+    background-color: #00000011;
+    border-radius: 1.5vh;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.note-card:hover .note-title{
+    transition: 0.2s;
+    border-bottom: #FAF9F6 2px solid;
+}
+
+.note-card:hover .note-date{
+    transition: 0.2s;
+    border-top: #FAF9F6 2px solid;
+}
+
+.note-card:active {
+    transform: scale(110%);
+}

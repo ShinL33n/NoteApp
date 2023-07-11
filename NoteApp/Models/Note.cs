@@ -8,6 +8,7 @@ namespace NoteApp.Models
         public int Id { get; set; }
 
         public string? Title { get; set; }
+        public string DisplayTitle { get; set; }
 
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]

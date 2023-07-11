@@ -35,20 +35,20 @@ namespace NoteApp.Controllers
 
             if (ModelState.IsValid)
             {
-                if (model.Title == null) model.Title = "My New Note"; //itf use AppDbContext to add Id and set that Id if title is null for example "My New Note 1"
-
+                if (model.Title == null) model.Title = "My New Note";
                 string uniqueFileName = ProcessNoteDescription(model);
 
                 Note note = new Note
                 {
                     Title = model.Title,
+                    DisplayTitle = model.Title,
                     DateCreated = model.DateCreated,
                     DescriptionFileName = uniqueFileName
                 };
 
                 _notesRepository.Add(note);
 
-                return RedirectToAction("Index", "Home"); // change to notes list view itf
+                return RedirectToAction("ViewNotes", "Home");
             }
 
             return View();
@@ -86,18 +86,10 @@ namespace NoteApp.Controllers
             return View(model);
         }
 
-        //public string NoteDescriptionPreview(string notePath)
-        //{
-        //    char[] noteBuffer = new char[200];
-        //    using (StreamReader reader = new StreamReader(System.IO.File.OpenRead(notePath)))
-        //    {
-        //        reader.ReadBlock(noteBuffer, 0, 200);
-        //    }
-        //    string noteDescPreview = new string(noteBuffer);
-        //    noteDescPreview = noteDescPreview.Replace("\0", string.Empty);
-        //    noteDescPreview = noteDescPreview.Replace("\r\n", ", ");
-
-        //    return noteDescPreview;
-        //}
+        // Home/ViewNotes - list of notes
+        // /Home/ViewNotes/{Note_Id} - note preview
+        // /Home/ViewNotes/{Note_Id}/edit [get] - editing existing note (with save edit [post], cancel [redirect to ViewNotes or smth] and delete [? - using delete method of INotesRepository for sure, probably next post action (post for security)] actions)
+        // design: viewNotes/{note_id} blures background (design whim) and display full note description and /{note_id}/edit gets triggered after another click on displayed note area opening another clean page with edit capabilities
+        // /\ learn nesting resources / model nesting routes
     }
 }

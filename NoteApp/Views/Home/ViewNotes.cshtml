@@ -1,5 +1,4 @@
 ﻿@using System.IO
-@using NoteApp.Controllers;
 @model IEnumerable<Note>
 
 @{
@@ -24,11 +23,15 @@
         <div class="note-card">
 
             <div class="note-title">
-                @note.Title
+                @{
+                    if(note.DisplayTitle != null)
+                        @note.DisplayTitle
+                    else
+                        @note.Title
+                }
             </div>
 
-            <div class="not-description-short">
-                <textarea type="textarea" maxlength="200" readonly="readonly">
+            <div class="note-description-short">
                     @{
                         // maybe try to wrap it up into method
                         char[] noteBuffer = new char[200];
@@ -38,15 +41,13 @@
                         string noteDescPreview = new string(noteBuffer);
                         noteDescPreview = noteDescPreview.Replace("\0", string.Empty);
                         noteDescPreview = noteDescPreview.Replace("\r\n", ", ");
-                        @noteDescPreview;
+                                @noteDescPreview;
                     }...
-                </textarea>
             </div>
 
             <div class="note-date">
-                Creation date: @note.DateCreated
+                @note.DateCreated
             </div>
-
         </div>
     }
 </div>
