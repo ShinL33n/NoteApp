@@ -79,16 +79,22 @@ namespace NoteApp.Controllers
         }
 
         [HttpGet]
-        public ViewResult ViewNotes()
+        public ViewResult ViewNotes() // peek is used for displaying note's preview layer in the View
         {
             IEnumerable<Note> model = _notesRepository.GetAll();
 
             return View(model);
         }
 
+        public IActionResult DisplayNotePreviewBasedOnId(int? clickedNoteId)
+        {
+            return ViewComponent("DisplayNotePreview", clickedNoteId);
+        }
+
+
         // Home/ViewNotes - list of notes
         // /Home/ViewNotes/{Note_Id} - note preview
-        // /Home/ViewNotes/{Note_Id}/edit [get] - editing existing note (with save edit [post], cancel [redirect to ViewNotes or smth] and delete [? - using delete method of INotesRepository for sure, probably next post action (post for security)] actions)
+        // /Home/ViewNotes/{Note_Id}/edit (/Home/?>ViewNotes<?/edit/{Note_Id}??? ) [get] - editing existing note (with save edit [post], cancel [redirect to ViewNotes or smth] and delete [? - using delete method of INotesRepository for sure, probably next post action (post for security)] actions)
         // design: viewNotes/{note_id} blures background (design whim) and display full note description and /{note_id}/edit gets triggered after another click on displayed note area opening another clean page with edit capabilities
         // /\ learn nesting resources / model nesting routes
     }

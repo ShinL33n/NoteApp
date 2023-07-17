@@ -26,7 +26,8 @@ namespace NoteApp
             app.UseStaticFiles();
 
             app.UseMvc(routes => {
-                routes.MapRoute("default", "{controller=Home}/{action=Index}");
+                routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
+                //routes.MapRoute("notePreview", "Home/ViewNotes/{id?}/Edit");
             });
 
             app.Run();

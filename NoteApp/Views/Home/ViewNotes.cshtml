@@ -6,25 +6,26 @@
 }
 
 @section Links{
-        <link href="~/css/viewnotes.css" rel="stylesheet" />
+    <link href="~/css/viewnotes.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 }
 
 @section SectionNav{
-            <p> <a asp-action="AddNote" asp-controller="home"> add note </a> </p>
-            <p> add event </p>
-            <p> upcoming events </p>
+    <p> <a asp-action="AddNote" asp-controller="home"> add note </a> </p>
+    <p> add event </p>
+    <p> upcoming events </p>
 }
 
 <div class="box">
-    @foreach(Note note in Model)
+        @foreach (Note note in Model)
     {
         var notePath = "wwwroot/Notes/local/" + note.DescriptionFileName;
 
-        <div class="note-card">
+        <div class="note-card" id="@note.Id" onclick="displayNotePreview('@note.Id')">
 
             <div class="note-title">
                 @{
-                    if(note.DisplayTitle != null)
+                    if (note.DisplayTitle != null)
                         @note.DisplayTitle
                     else
                         @note.Title
@@ -32,17 +33,19 @@
             </div>
 
             <div class="note-description-short">
-                    @{
-                        // maybe try to wrap it up into method
-                        char[] noteBuffer = new char[200];
-                        using (StreamReader reader = new StreamReader(File.OpenRead(notePath))){
-                            reader.ReadBlock(noteBuffer, 0, 200);
-                        }
-                        string noteDescPreview = new string(noteBuffer);
-                        noteDescPreview = noteDescPreview.Replace("\0", string.Empty);
-                        noteDescPreview = noteDescPreview.Replace("\r\n", ", ");
-                                @noteDescPreview;
-                    }...
+                @{
+                    // maybe try to wrap it up into a method
+                    char[] noteBuffer = new char[200];
+                    using (StreamReader reader = new StreamReader(File.OpenRead(notePath)))
+                    {
+                        reader.ReadBlock(noteBuffer, 0, 200);
+                    }
+                    string noteDescPreview = new string(noteBuffer);
+                    noteDescPreview = noteDescPreview.Replace("\0", string.Empty);
+                    noteDescPreview = noteDescPreview.Replace("\r\n", ", ");
+                    @noteDescPreview
+                    ;
+                }...
             </div>
 
             <div class="note-date">
@@ -50,4 +53,20 @@
             </div>
         </div>
     }
+
+    <script>
+        function displayNotePreview(noteId) {
+            $.ajax({
+                url: '/Home/DisplayNotePreviewBasedOnId',
+                data: { clickedNoteId: noteId },
+                success: function(result) {
+                    $('.preview-layer').html(result);
+                }
+            });
+        }
+    </script>
+
+
+    <div class="preview-layer"></div>
 </div>
+

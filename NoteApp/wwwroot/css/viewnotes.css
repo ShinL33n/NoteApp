@@ -75,3 +75,12 @@
 .note-card:active {
     transform: scale(110%);
 }
+
+
+/* NOTE PREVIEW */
+
+
+.note-description {
+    font-family: 'Roboto', sans-serif;
+    height: min(95vh, auto);
+}
