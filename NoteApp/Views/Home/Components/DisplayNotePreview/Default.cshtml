@@ -4,9 +4,9 @@
     var notePath = "wwwroot/Notes/local/" + Model.DescriptionFileName;
 }
 
-<div class="note-card">
+<div class="note-card-preview">
 
-    <div class="note-title">
+    <div class="note-title-preview">
         @{
             if (Model.DisplayTitle != null)
                 @Model.DisplayTitle
@@ -15,7 +15,7 @@
         }
     </div>
 
-    <div class="note-description">
+    <div class="note-description-preview">
         @{
             string? noteBuffer;
             using (StreamReader reader = new StreamReader(File.OpenRead(notePath)))
@@ -30,8 +30,7 @@
         }
     </div>
 
-    <div class="note-date">
+    <div class="note-date-preview">
         @Model.DateCreated
     </div>
 </div>
-

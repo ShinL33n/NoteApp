@@ -13,8 +13,7 @@
     transition: 0.2s;
     display: flex;
     flex-flow: column wrap;
-    min-width: 22vw;
-    max-width: 22vw;
+    width: 22vw;
     margin: 0 2%;
     gap: .5em;
     border: #e9e8e6 2px solid;
@@ -77,10 +76,75 @@
 }
 
 
+
 /* NOTE PREVIEW */
 
+.preview-layer:active:not(:has(:active)) {
+    background-color: #ff111120;
+}
 
-.note-description {
+.preview-layer:has(.note-preview) {
+    transition: 0.2s;
+    position: absolute;
+    inset: 0 0 0 10vw;
+    width: 90vw;
+    z-index: 0;
+    backdrop-filter: blur(7px);
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1em;
+}
+
+.note-card-preview {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #FAF9F6;
+    width: 60vw;
+    height: auto;
+    gap: .5em;
+    border: #e9e8e6 2px solid;
+    box-shadow: 5px 5px 15px 0px #2f2f2f11;
+}
+
+.note-title-preview {
+    font-weight: 700;
+    text-transform: capitalize;
+    border-bottom: #00000011 2px solid;
+}
+
+.note-description-preview {
     font-family: 'Roboto', sans-serif;
-    height: min(95vh, auto);
+    height: auto;
+    padding: 1em;
+}
+
+.note-date-preview {
+    font-family: 'Lato Hairline', sans-serif;
+    font-weight: 900;
+    border-top: #00000011 2px solid;
+}
+
+.note-title-preview,
+.note-date-preview {
+    padding: 1em;
+}
+
+
+
+/* ACTION BUTTONS*/
+
+.actions-wrapper {
+    display: none;
+}
+
+.edit-button {
+    width: 10vw;
+    background-color: dodgerblue;
+}
+
+.delete-button{
+    width: 10vw;
+    background-color: orangered;
 }

@@ -26,9 +26,9 @@
             <div class="note-title">
                 @{
                     if (note.DisplayTitle != null)
-                        @note.DisplayTitle
+                                                                @note.DisplayTitle
                     else
-                        @note.Title
+                                                                @note.Title
                 }
             </div>
 
@@ -43,8 +43,7 @@
                     string noteDescPreview = new string(noteBuffer);
                     noteDescPreview = noteDescPreview.Replace("\0", string.Empty);
                     noteDescPreview = noteDescPreview.Replace("\r\n", ", ");
-                    @noteDescPreview
-                    ;
+                                                            @noteDescPreview
                 }...
             </div>
 
@@ -54,19 +53,40 @@
         </div>
     }
 
-    <script>
+    <script type="text/javascript">
         function displayNotePreview(noteId) {
+            $('.actions-wrapper').css({"display": "inline"});
             $.ajax({
                 url: '/Home/DisplayNotePreviewBasedOnId',
                 data: { clickedNoteId: noteId },
                 success: function(result) {
-                    $('.preview-layer').html(result);
+                    var id = "PreviewOfNote" + noteId;
+                    var noteCard = new $('<div></div>').attr('id', id).addClass('note-preview');
+                    noteCard.unbind().click(function(event) {
+                        event.stopPropagation();
+                    });
+                    $('.preview-layer').unbind().click(function() {
+                        noteCard.remove();
+                        $('.actions-wrapper').css({"display": "none"});
+                    });
+                    $('.preview-layer').append(noteCard);
+                    noteCard.siblings('.note-preview').remove();
+                    $('#'+id).html(result);
                 }
             });
         }
     </script>
 
 
-    <div class="preview-layer"></div>
+    <div class="preview-layer">
+        <div class="actions-wrapper">
+            <a class="edit-button" asp-action="edit" asp-controller="home">
+                edit-button
+            </a>
+            <a class="delete-button" asp-action="viewNotes" asp-controller="home"> <!-- to do: add delete method in controller and use ajax to delete note-->
+                delete-button
+            </a>
+        </div>
+    </div>
 </div>
 
