@@ -16,8 +16,5 @@ namespace NoteApp.Models
 
         [Required]
         public string DescriptionFileName { get; set; }
-
-
-
     }
 }

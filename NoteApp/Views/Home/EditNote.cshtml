@@ -1,0 +1,33 @@
+﻿@model EditNoteViewModel
+
+@section Links{
+            <link href="~/css/addnote.css" rel="stylesheet" />
+}
+
+@section SectionNav{
+                <p> add note </p>
+                <p> edit note </p>
+                <p> see notes </p>
+                <p> manage notes </p>
+}
+
+<div class="box">
+    <form method="post" asp-controller="home" asp-action="EditNote">
+
+        <div class="input-wrapper">
+            <label asp-for="Title"></label>
+            <input asp-for="Title" placeholder="Note's title"/>
+        </div>
+
+        <div class="input-wrapper"> <!-- have to simplify printing note's description into ViewComponent / refactor into PartialView -->
+            <label asp-for="DescriptionFileName"></label> 
+            <textarea type="textarea" asp-for="DescriptionFileName" placeholder="Your note" rows="25"> </textarea>
+        </div>
+
+        <div class="input-wrapper">
+            <button type="submit" class="submit-button">Update Note</button>
+        </div>
+
+        <div asp-validation-summary="All"></div>
+    </form>
+</div>

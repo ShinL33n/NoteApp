@@ -79,7 +79,7 @@ namespace NoteApp.Controllers
         }
 
         [HttpGet]
-        public ViewResult ViewNotes() // peek is used for displaying note's preview layer in the View
+        public ViewResult ViewNotes()
         {
             IEnumerable<Note> model = _notesRepository.GetAll();
 
@@ -89,6 +89,42 @@ namespace NoteApp.Controllers
         public IActionResult DisplayNotePreviewBasedOnId(int? clickedNoteId)
         {
             return ViewComponent("DisplayNotePreview", clickedNoteId);
+        }
+
+        [HttpPost]
+        public IActionResult DeleteNote(int id)
+        {
+            _notesRepository.Delete(id);
+
+            return View();
+        }
+
+        [HttpGet]
+        public ViewResult EditNote(int id = 1)
+        {
+            Note note = _notesRepository.Get(id);
+            EditNoteViewModel editNoteViewModel = new EditNoteViewModel
+            {
+                Id = note.Id,
+                Title = note.DisplayTitle != null ? note.DisplayTitle : note.Title,
+                DescriptionFileName = note.DescriptionFileName
+            };
+
+            return View("EditNote", editNoteViewModel);
+        }
+
+        [HttpPost]
+        public IActionResult EditNote()
+        {
+            if (ModelState.IsValid)
+            {
+
+                //_notesRepository.Update(note);
+
+                return RedirectToAction("ViewNotes", "Home");
+            }
+
+            return View();
         }
 
 

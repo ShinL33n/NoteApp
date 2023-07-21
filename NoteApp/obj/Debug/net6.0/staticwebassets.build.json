@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4JTdSRNoOF2l0ijjaDMBENeRJP+k7waRimdsgVR+kfI=",
+  "Hash": "rtxtoc1hg4DOCJ4wXFbmMNWRCdgUu6OqGF0Qfmon5xE=",
   "Source": "NoteApp",
   "BasePath": "_content/NoteApp",
   "Mode": "Default",
@@ -136,6 +136,23 @@
       "OriginalItemSpec": "wwwroot\\Notes\\local\\03ff4eb3-b30c-4546-a5f8-1f40649926de_mynewnote3_11.07.2023"
     },
     {
+      "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\0b098fa3-4376-4e2d-b8ee-c56eff7a6867_dawdwa_20.07.2023",
+      "SourceId": "NoteApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\",
+      "BasePath": "_content/NoteApp",
+      "RelativePath": "Notes/local/0b098fa3-4376-4e2d-b8ee-c56eff7a6867_dawdwa_20.07.2023",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Notes\\local\\0b098fa3-4376-4e2d-b8ee-c56eff7a6867_dawdwa_20.07.2023"
+    },
+    {
       "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\11aa13f9-f037-4c9d-b5f6-5ee1d35ecfe2_csasz_20.07.2023",
       "SourceId": "NoteApp",
       "SourceType": "Discovered",
@@ -151,6 +168,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Notes\\local\\11aa13f9-f037-4c9d-b5f6-5ee1d35ecfe2_csasz_20.07.2023"
+    },
+    {
+      "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\131a3cd2-0a25-4423-b987-1da49f8fbd50_awdawd_20.07.2023",
+      "SourceId": "NoteApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\",
+      "BasePath": "_content/NoteApp",
+      "RelativePath": "Notes/local/131a3cd2-0a25-4423-b987-1da49f8fbd50_awdawd_20.07.2023",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Notes\\local\\131a3cd2-0a25-4423-b987-1da49f8fbd50_awdawd_20.07.2023"
     },
     {
       "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\150ffc17-772f-4012-b58d-c276306ed5ad_12_11.07.2023",
@@ -170,6 +204,23 @@
       "OriginalItemSpec": "wwwroot\\Notes\\local\\150ffc17-772f-4012-b58d-c276306ed5ad_12_11.07.2023"
     },
     {
+      "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\1a720ac8-7c51-4d53-b71f-8cbc6a872a29_234243_21.07.2023",
+      "SourceId": "NoteApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\",
+      "BasePath": "_content/NoteApp",
+      "RelativePath": "Notes/local/1a720ac8-7c51-4d53-b71f-8cbc6a872a29_234243_21.07.2023",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Notes\\local\\1a720ac8-7c51-4d53-b71f-8cbc6a872a29_234243_21.07.2023"
+    },
+    {
       "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\1ae66c35-6741-470a-a2f4-a0746edb7a08_ez11_11.07.2023",
       "SourceId": "NoteApp",
       "SourceType": "Discovered",
@@ -185,6 +236,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Notes\\local\\1ae66c35-6741-470a-a2f4-a0746edb7a08_ez11_11.07.2023"
+    },
+    {
+      "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\1c93c773-a882-43c8-baf6-761e0842bccd_dawdaw_20.07.2023",
+      "SourceId": "NoteApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\",
+      "BasePath": "_content/NoteApp",
+      "RelativePath": "Notes/local/1c93c773-a882-43c8-baf6-761e0842bccd_dawdaw_20.07.2023",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Notes\\local\\1c93c773-a882-43c8-baf6-761e0842bccd_dawdaw_20.07.2023"
     },
     {
       "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\274bda85-8ac8-4ad3-8b35-5330c22f9d7a_ez1_11.07.2023",
@@ -270,6 +338,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Notes\\local\\3567b7ec-6d79-4e22-aa79-2efb6eaee2f9_MyNewNote0_11.07.2023"
+    },
+    {
+      "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\35b9633d-949c-4fff-8550-c1ba6a2c6788_fbcbcb_21.07.2023",
+      "SourceId": "NoteApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\",
+      "BasePath": "_content/NoteApp",
+      "RelativePath": "Notes/local/35b9633d-949c-4fff-8550-c1ba6a2c6788_fbcbcb_21.07.2023",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Notes\\local\\35b9633d-949c-4fff-8550-c1ba6a2c6788_fbcbcb_21.07.2023"
     },
     {
       "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\37c8d3dc-e548-4c07-a3d5-8a22e1713cb3_123_11.07.2023",
@@ -442,6 +527,23 @@
       "OriginalItemSpec": "wwwroot\\Notes\\local\\4d2b0dc3-006b-40ae-8tg6-189ef1980700_eg.notenum3_10.07.2023"
     },
     {
+      "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\5a140618-3c48-4d7a-b332-2acdfd85ffa3_234_21.07.2023",
+      "SourceId": "NoteApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\",
+      "BasePath": "_content/NoteApp",
+      "RelativePath": "Notes/local/5a140618-3c48-4d7a-b332-2acdfd85ffa3_234_21.07.2023",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Notes\\local\\5a140618-3c48-4d7a-b332-2acdfd85ffa3_234_21.07.2023"
+    },
+    {
       "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\5cfb9d8e-ad1d-4e5f-b4ee-f8780bd4db16_12312312_11.07.2023",
       "SourceId": "NoteApp",
       "SourceType": "Discovered",
@@ -561,6 +663,57 @@
       "OriginalItemSpec": "wwwroot\\Notes\\local\\7396eee0-263b-403e-a196-24d6658af59b_MyNewNote_11.07.2023"
     },
     {
+      "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\882f6e9e-9a22-4207-bc14-55b7ea2d7305_awdawdw_20.07.2023",
+      "SourceId": "NoteApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\",
+      "BasePath": "_content/NoteApp",
+      "RelativePath": "Notes/local/882f6e9e-9a22-4207-bc14-55b7ea2d7305_awdawdw_20.07.2023",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Notes\\local\\882f6e9e-9a22-4207-bc14-55b7ea2d7305_awdawdw_20.07.2023"
+    },
+    {
+      "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\8c26a69b-5697-4de2-8251-f1daa764d718_123_21.07.2023",
+      "SourceId": "NoteApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\",
+      "BasePath": "_content/NoteApp",
+      "RelativePath": "Notes/local/8c26a69b-5697-4de2-8251-f1daa764d718_123_21.07.2023",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Notes\\local\\8c26a69b-5697-4de2-8251-f1daa764d718_123_21.07.2023"
+    },
+    {
+      "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\8d2bf28b-16ed-4162-9e6c-458eb674963c_adwad_20.07.2023",
+      "SourceId": "NoteApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\",
+      "BasePath": "_content/NoteApp",
+      "RelativePath": "Notes/local/8d2bf28b-16ed-4162-9e6c-458eb674963c_adwad_20.07.2023",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Notes\\local\\8d2bf28b-16ed-4162-9e6c-458eb674963c_adwad_20.07.2023"
+    },
+    {
       "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\949d3607-56fd-4f0f-a13d-4505a773dffb_12313123_11.07.2023",
       "SourceId": "NoteApp",
       "SourceType": "Discovered",
@@ -576,6 +729,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Notes\\local\\949d3607-56fd-4f0f-a13d-4505a773dffb_12313123_11.07.2023"
+    },
+    {
+      "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\94d52140-dbc8-4a72-a075-779779be2891_afwf_20.07.2023",
+      "SourceId": "NoteApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\",
+      "BasePath": "_content/NoteApp",
+      "RelativePath": "Notes/local/94d52140-dbc8-4a72-a075-779779be2891_afwf_20.07.2023",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Notes\\local\\94d52140-dbc8-4a72-a075-779779be2891_afwf_20.07.2023"
+    },
+    {
+      "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\95f619a0-368f-453d-a922-ef42646cbddf_awfawf_20.07.2023",
+      "SourceId": "NoteApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\",
+      "BasePath": "_content/NoteApp",
+      "RelativePath": "Notes/local/95f619a0-368f-453d-a922-ef42646cbddf_awfawf_20.07.2023",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Notes\\local\\95f619a0-368f-453d-a922-ef42646cbddf_awfawf_20.07.2023"
     },
     {
       "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\9806549d-1abb-44fa-b9c6-2627ebc4c6f6_NewNote_11.07.2023",
@@ -595,6 +782,23 @@
       "OriginalItemSpec": "wwwroot\\Notes\\local\\9806549d-1abb-44fa-b9c6-2627ebc4c6f6_NewNote_11.07.2023"
     },
     {
+      "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\9870441d-e19a-43aa-a060-26e3e763932b_123_21.07.2023",
+      "SourceId": "NoteApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\",
+      "BasePath": "_content/NoteApp",
+      "RelativePath": "Notes/local/9870441d-e19a-43aa-a060-26e3e763932b_123_21.07.2023",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Notes\\local\\9870441d-e19a-43aa-a060-26e3e763932b_123_21.07.2023"
+    },
+    {
       "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\ad16065b-02ff-4088-b6ce-13f1fb427678_NewNote_11.07.2023",
       "SourceId": "NoteApp",
       "SourceType": "Discovered",
@@ -612,6 +816,23 @@
       "OriginalItemSpec": "wwwroot\\Notes\\local\\ad16065b-02ff-4088-b6ce-13f1fb427678_NewNote_11.07.2023"
     },
     {
+      "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\ae7629b8-262c-4892-9c6f-ad04189c39b8_rgdg_20.07.2023",
+      "SourceId": "NoteApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\",
+      "BasePath": "_content/NoteApp",
+      "RelativePath": "Notes/local/ae7629b8-262c-4892-9c6f-ad04189c39b8_rgdg_20.07.2023",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Notes\\local\\ae7629b8-262c-4892-9c6f-ad04189c39b8_rgdg_20.07.2023"
+    },
+    {
       "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\b8747de8-cfda-4e7a-a5fb-53550e18ab19_ez2_11.07.2023",
       "SourceId": "NoteApp",
       "SourceType": "Discovered",
@@ -627,6 +848,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Notes\\local\\b8747de8-cfda-4e7a-a5fb-53550e18ab19_ez2_11.07.2023"
+    },
+    {
+      "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\ba859c2b-dc32-4854-bc7d-0ba157575d58_awddwa_20.07.2023",
+      "SourceId": "NoteApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\",
+      "BasePath": "_content/NoteApp",
+      "RelativePath": "Notes/local/ba859c2b-dc32-4854-bc7d-0ba157575d58_awddwa_20.07.2023",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Notes\\local\\ba859c2b-dc32-4854-bc7d-0ba157575d58_awddwa_20.07.2023"
     },
     {
       "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\baa334f7-c190-4e39-b770-255aac6666a2_MyNewNote_11.07.2023",
@@ -850,6 +1088,23 @@
       "OriginalItemSpec": "wwwroot\\Notes\\local\\f8cb63fd-fe97-46ad-844f-93057fa2c8e4_MyNewNote_11.07.2023"
     },
     {
+      "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\fa22720c-3a1d-4ee2-a30a-0ca53c3b5ac2_wadawd_20.07.2023",
+      "SourceId": "NoteApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\",
+      "BasePath": "_content/NoteApp",
+      "RelativePath": "Notes/local/fa22720c-3a1d-4ee2-a30a-0ca53c3b5ac2_wadawd_20.07.2023",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Notes\\local\\fa22720c-3a1d-4ee2-a30a-0ca53c3b5ac2_wadawd_20.07.2023"
+    },
+    {
       "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\fa4b1b52-144d-473c-9194-d2e7cf6d4fcf_NewNote_11.07.2023",
       "SourceId": "NoteApp",
       "SourceType": "Discovered",
@@ -865,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Notes\\local\\fa4b1b52-144d-473c-9194-d2e7cf6d4fcf_NewNote_11.07.2023"
+    },
+    {
+      "Identity": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\Notes\\local\\fffe036b-dbed-473f-97ab-47f09fefcc45_sfesef_21.07.2023",
+      "SourceId": "NoteApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dokumenty\\Programming projects\\C#\\NoteApp\\NoteApp\\NoteApp\\wwwroot\\",
+      "BasePath": "_content/NoteApp",
+      "RelativePath": "Notes/local/fffe036b-dbed-473f-97ab-47f09fefcc45_sfesef_21.07.2023",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Notes\\local\\fffe036b-dbed-473f-97ab-47f09fefcc45_sfesef_21.07.2023"
     }
   ]
 }

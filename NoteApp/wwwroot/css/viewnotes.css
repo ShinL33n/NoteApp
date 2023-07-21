@@ -88,7 +88,6 @@
     position: absolute;
     inset: 0 0 0 10vw;
     width: 90vw;
-    z-index: 0;
     backdrop-filter: blur(7px);
     overflow-y: auto;
     display: flex;
@@ -135,16 +134,45 @@
 
 /* ACTION BUTTONS*/
 
+.actions-wrapper .material-symbols-outlined {
+    margin: 0;
+}
+
+.actions-wrapper .edit-button:hover .material-symbols-outlined,
+.actions-wrapper .delete-button:hover .material-symbols-outlined {
+    transition: 0.2s;
+    transform: scale(170%);
+}
+
+.actions-wrapper .edit-button:hover .button-text,
+.actions-wrapper .delete-button:hover .button-text {
+    transition: 0.1s;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .actions-wrapper {
     display: none;
+    font-family: 'Lato', sans-serif;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.delete-button,
+.edit-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.94em;
+    gap: 1em;
 }
 
 .edit-button {
     width: 10vw;
-    background-color: dodgerblue;
 }
 
-.delete-button{
+.delete-button {
     width: 10vw;
-    background-color: orangered;
 }

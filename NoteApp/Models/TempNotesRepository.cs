@@ -17,10 +17,13 @@
         public Note Add(Note note)
         {
             note.Id = _notesList.Max(n => n.Id) + 1;
+
             int titleNumber = _notesList.Count(n => n.Title == note.Title);
             note.DisplayTitle = titleNumber > 0 ? note.Title + " " + titleNumber : note.Title;
+
             int titleEqualsDisplayTitleNumber = _notesList.Count(n => n.DisplayTitle == note.Title);
             note.DisplayTitle = titleEqualsDisplayTitleNumber > 0 ? note.Title + " " + titleEqualsDisplayTitleNumber : note.Title;
+
             _notesList.Add(note);
             return note;
         }
@@ -28,6 +31,16 @@
         public Note Get(int Id)
         {
             return _notesList.FirstOrDefault(n => n.Id == Id);
+        }
+
+        public Note Delete(int Id)
+        {
+            Note note = _notesList.First(n => n.Id == Id);
+            if(note != null)
+            {
+                _notesList.Remove(note);
+            }
+            return note;
         }
 
         public IEnumerable<Note> GetAll()

@@ -26,9 +26,9 @@
             <div class="note-title">
                 @{
                     if (note.DisplayTitle != null)
-                                                                @note.DisplayTitle
+                                                                                            @note.DisplayTitle
                     else
-                                                                @note.Title
+                                                                                            @note.Title
                 }
             </div>
 
@@ -43,7 +43,7 @@
                     string noteDescPreview = new string(noteBuffer);
                     noteDescPreview = noteDescPreview.Replace("\0", string.Empty);
                     noteDescPreview = noteDescPreview.Replace("\r\n", ", ");
-                                                            @noteDescPreview
+                                                                                        @noteDescPreview
                 }...
             </div>
 
@@ -74,17 +74,38 @@
                     $('#'+id).html(result);
                 }
             });
+
+            $('.edit-button').unbind().click(function() {
+                $.ajax({
+                    type: 'GET',
+                    url: '/Home/EditNote',
+                    data: { id: noteId },
+                    success: function(result) {
+                        location.href = "/Home/EditNote/" + noteId;
+                    }
+                });
+            });
+
+            $('.delete-button').unbind().click(function() {
+                $.ajax({
+                    type: 'POST',
+                    url: '/Home/DeleteNote',
+                    data: { id: noteId }
+                });
+            });
         }
     </script>
 
 
     <div class="preview-layer">
         <div class="actions-wrapper">
-            <a class="edit-button" asp-action="edit" asp-controller="home">
-                edit-button
+            <a class="edit-button">
+                <span class="material-symbols-outlined"> edit </span>
+                <span class="button-text"> Edit </span>
             </a>
-            <a class="delete-button" asp-action="viewNotes" asp-controller="home"> <!-- to do: add delete method in controller and use ajax to delete note-->
-                delete-button
+            <a class="delete-button" asp-action="viewNotes" asp-controller="home">
+                <span class="material-symbols-outlined"> delete </span>
+                <span class="button-text"> Delete </span>
             </a>
         </div>
     </div>
